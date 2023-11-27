@@ -1,0 +1,8 @@
+.site-title {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.site-header {
+    display: flex;
+}
