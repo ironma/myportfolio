@@ -1,8 +1,22 @@
-.site-title {
-    font-size: 1em;
-    font-weight: normal;
+.site-header a {
+    text-decoration: none;
 }
 
 .site-header {
     display: flex;
+    border-bottom: 1px solid #1e2d3d;
+}
+
+.site-header   .site-branding,
+.main-nav li:not(:last-child) a {
+    border-right: 1px solid #1e2d3d;
+}
+
+.site-branding {
+    margin-right: 5em;
+}
+
+.site-title {
+    font-size: 1em;
+    font-weight: normal;
 }
