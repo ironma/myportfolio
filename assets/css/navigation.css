@@ -1,16 +1,16 @@
 .main-nav {
     display: block;
+    flex-grow: 1;
 }
 
 .main-nav ul {
     display: flex;
 }
 
-.main-nav li,
-.main-nav a {
-    display: block;
+.main-nav li {
+display: block;
 }
 
-.main-nav a {
-    padding: 0.5em 1em;
+.main-nav li:last-child {
+    margin-left: auto;
 }
