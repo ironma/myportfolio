@@ -1,0 +1,28 @@
+section.introduction {
+    padding: 5em;
+}
+
+.greeting {
+color: #fff;
+}
+
+.greeting .name {
+color: #fff;
+display: block;
+font-size: 3em;
+line-height: 1;
+}
+
+.job-title {
+font-size: 1.8em;
+color: #4d5bce;
+padding-bottom: 3em;
+}
+.about-me {
+
+}
+
+.github-profile {
+    background: ;
+
+}

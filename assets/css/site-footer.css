@@ -1,0 +1,42 @@
+.site-footer {
+    display: flex;
+    border-top: 1px solid #1e2d3d;
+}
+
+.site-footer ul {
+    display: flex;
+    flex-grow: 1;
+}
+
+.site-footer li,
+.site-footer li a {
+display: flex;
+gap: 1em;
+border-left: 1px solid #1e2d3d;
+}
+
+.site-footer li a span {
+    display: block;
+}
+
+.site-footer li a span.icon svg {
+    display: block;
+    width: 1em;
+    fill:#607B96;
+}
+
+.site-footer li a span.service,
+.site-footer li a span.username {
+    display: none;
+}
+
+.site-footer p, 
+.site-footer li a {
+    line-height: 1;
+    padding: 1em 1.3em;
+    border-right: 1px solid #1e2d3d;
+}
+
+.site-footer li:last-child {
+    margin-left: auto;
+}
