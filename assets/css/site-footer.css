@@ -33,10 +33,13 @@ border-left: 1px solid #1e2d3d;
 .site-footer p, 
 .site-footer li a {
     line-height: 1;
-    padding: 1em 1.3em;
-    border-right: 1px solid #1e2d3d;
+    padding: 1em 1.3em;    
 }
 
 .site-footer li:last-child {
     margin-left: auto;
+}
+
+.site-footer li:last-child span.username {
+    display: block;
 }

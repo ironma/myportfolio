@@ -3,26 +3,51 @@ section.introduction {
 }
 
 .greeting {
-color: #fff;
+    color: #fff;
 }
 
 .greeting .name {
-color: #fff;
-display: block;
-font-size: 3em;
-line-height: 1;
+    color: #fff;
+    display: block;
+    font-size: 3em;
+    line-height: 1;
 }
 
 .job-title {
-font-size: 1.8em;
-color: #4d5bce;
-padding-bottom: 3em;
-}
-.about-me {
-
+    font-size: 1.8em;
+    color: #4d5bce;
+    padding-bottom: 3em;
 }
 
-.github-profile {
-    background: ;
+.github-profile .const {
+    color: #4d5bce;
+}
 
+.github-profile .let {
+    color: #43D9AD;
+}
+
+.github-profile .equals {
+    color: #fff;
+}
+
+.github-profile .value {
+    color: #e99287;
+}
+
+
+.chess {
+    color: #43D9AD;
+    background: #e99287;
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    border: 1px
+}
+}
+
+.site-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
