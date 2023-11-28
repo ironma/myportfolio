@@ -1,3 +1,71 @@
 html {
-    font: 14px/1.5 "Fira Code", Consolas, monospace;
+    font: 12px/1.5 "Fira Code", Consolas, monospace;
+}
+
+body,
+table,
+input,
+textarea option,
+select,
+button {
+    font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 3.0em;
+}
+
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    font-size: 2.0em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1.0em;
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1000px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1400px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1600px) {
+    html {
+        font-size: 20px;
+    }
 }
