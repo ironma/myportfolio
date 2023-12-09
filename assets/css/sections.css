@@ -54,3 +54,11 @@ section.introduction {
     border: 1px;
     backdrop-filter: blur(64px);    
 }
+
+.container-content {
+    display: flex;
+}
+
+.left-side {
+    border-right: 1px solid #1E2D3D ;
+}

@@ -5,11 +5,11 @@
 .site-header {
     display: flex;
     border-bottom: 1px solid #1e2d3d;
-    }
+}
 
 .site-branding,
 .main-nav li:not(:last-child) a {
-    border-left: 1px solid #1e2d3d;
+    border-right: 1px solid #1e2d3d;
 }
 
 .main-nav li:last-child {
@@ -32,10 +32,3 @@
     padding: 1em 1.3em;
     line-height: 1;
 }
-
-width: 1782px;
-    height: 941.32px;
-    top: 69px;
-    left: 69px;
-    border-radius: 8px;
-    border: 1px;

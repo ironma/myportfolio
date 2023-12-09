@@ -1,11 +1,12 @@
 html {
-    font: 12px/1.5 "Fira Code", Consolas, monospace;
+    font: 11px/1.5 "Fira Code Retina", Consolas, monospace;
 }
 
 body,
 table,
 input,
-textarea option,
+textarea,
+option,
 select,
 button {
     font: inherit;
@@ -17,8 +18,9 @@ h3,
 h4,
 h5,
 h6 {
-    margin-bottom: 0.5em;
-    line-height: 1.2;
+    font-family: 1em/1.2 "Fira Code Retina";
+    margin: 1em 0 0.5em 0;
+    padding: 0;
 }
 
 h1 {
@@ -45,26 +47,26 @@ h6 {
     font-size: 1.0em;
 }
 
-@media (min-width: 600px) {
+@media (width > 400px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (width > 600px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (width > 800px) {
     html {
         font-size: 14px;
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     html {
         font-size: 16px;
-    }
-}
-
-@media (min-width: 1400px) {
-    html {
-        font-size: 18px;
-    }
-}
-
-@media (min-width: 1600px) {
-    html {
-        font-size: 20px;
     }
 }
