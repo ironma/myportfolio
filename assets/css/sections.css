@@ -35,11 +35,7 @@ section.introduction {
     color: #e99287;
 }
 
-.site-main {
-    width: 1780px;
-    height: 940px;
-    top: 69px;
-    left: 69px;
+.site-main {    
     border-radius: 8px;
     border: 1px;
     display: flex;
@@ -47,13 +43,9 @@ section.introduction {
     justify-content: space-evenly;
 }
 
-.game-img-snake {
-    width: 510px;
-    height: 475px;
-    border-radius: 8px;
-    border: 1px;
-    backdrop-filter: blur(64px);    
-}
+.study-img {
+    width: 100%;
+  }
 
 .container-content {
     display: flex;
