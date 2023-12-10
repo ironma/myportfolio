@@ -15,7 +15,8 @@ display: block;
     margin-left: auto;
 }
 
-a:hover {
+a:hover, svg:hover {
     color: #fff;
+    fill: #fff;
     background-color: #1e2d3d;
   }

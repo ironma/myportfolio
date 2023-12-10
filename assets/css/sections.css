@@ -1,9 +1,16 @@
-body, html {
-    margin: 30px;
-    background-color: #010C15;
-  }
+html {
+        
+}
 
-.introduction, .container-content, .projects {
+body {
+    background-color: #010C15;
+    margin: 30px;
+
+}
+
+.introduction,
+.container-content,
+.projects {
     padding: 5em;
 }
 
@@ -60,4 +67,34 @@ body, html {
     background: rgba(255, 255, 255, 0.1);
     padding: 1em;
     border-right: 1px solid #1E2D3D;
+}
+
+.container-projects {
+
+    max-width: 1200;
+    margin: 0 auto;
+}
+
+.container-projects header {
+    text-align: center;
+}
+
+.pr-title {
+    flex: 1 0 20%;
+    gap: 10;
+    border-radius: 12px;
+    width: 30%;
+    background: #1e2d3d;
+}
+
+.pr-title img {
+    display: block;
+    width: 100%;
+}
+
+.projects-list {
+    padding: 10em;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
 }
