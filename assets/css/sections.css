@@ -35,7 +35,7 @@ section.introduction {
     color: #e99287;
 }
 
-.site-main {    
+.site-main {
     border-radius: 8px;
     border: 1px;
     display: flex;
@@ -45,12 +45,12 @@ section.introduction {
 
 .study-img {
     width: 100%;
-  }
+}
 
 .container-content {
     display: flex;
 }
 
 .left-side {
-    border-right: 1px solid #1E2D3D ;
+    border-right: 1px solid #1E2D3D;
 }
