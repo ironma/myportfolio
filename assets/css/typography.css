@@ -18,9 +18,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 1em/1.2 "Fira Code Retina";
-    margin: 1em 0 0.5em 0;
-    padding: 0;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
 }
 
 h1 {

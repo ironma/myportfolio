@@ -1,4 +1,9 @@
-section.introduction {
+body, html {
+    margin: 30px;
+    background-color: #010C15;
+  }
+
+.introduction, .container-content, .projects {
     padding: 5em;
 }
 
@@ -52,5 +57,7 @@ section.introduction {
 }
 
 .left-side {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1em;
     border-right: 1px solid #1E2D3D;
 }

@@ -33,7 +33,7 @@ border-left: 1px solid #1e2d3d;
 .site-footer p, 
 .site-footer li a {
     line-height: 1;
-    padding: 1em 1.3em;    
+    padding: 0.5em 1.3em;    
 }
 
 .site-footer li:last-child {
