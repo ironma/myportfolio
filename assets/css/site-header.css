@@ -16,7 +16,7 @@
     border-left: 1px solid #1e2d3d;
 }
 
-.site-branding .site-title a {
+.site-branding h1 {
     padding-right: 5em;
 }
 
@@ -26,7 +26,7 @@
     margin: 0;
 }
 
-.site-title a,
+.site-branding h1,
 .main-nav a {
     display: block;
     padding: 0.5em 1.3em;

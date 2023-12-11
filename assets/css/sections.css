@@ -4,6 +4,13 @@ body {
     height: 100%;
 }
 
+.site-main {
+    border-radius: 8px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 .introduction,
 .container-content,
@@ -45,7 +52,7 @@ body {
 }
 
 .study-img {
-    width: 100%;
+    width: auto;
 }
 
 .container-content {
@@ -56,12 +63,6 @@ body {
     background: rgba(255, 255, 255, 0.1);
     padding: 1em;
     border-right: 1px solid #1E2D3D;
-}
-
-.container-projects h2,
-p {
-
-    text-align: center;
 }
 
 .container-projects {
@@ -116,10 +117,10 @@ p {
 
 .projects {
     display: flex;
-    gap: 5em;
+    gap: 6em;
     padding: 5em;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
 }
 
 .menu-projects {
