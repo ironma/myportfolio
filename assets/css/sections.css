@@ -1,7 +1,3 @@
-html {
-        
-}
-
 body {
     background-color: #010C15;
     margin: 30px;
@@ -63,38 +59,73 @@ body {
     display: flex;
 }
 
-.left-side {
+.aboutme-left {
     background: rgba(255, 255, 255, 0.1);
     padding: 1em;
     border-right: 1px solid #1E2D3D;
 }
 
-.container-projects {
-
-    max-width: 1200;
-    margin: 0 auto;
-}
 
 .container-projects header {
     text-align: center;
 }
 
-.pr-title {
-    flex: 1 0 20%;
-    gap: 10;
+header h2 {
+    padding: 2em 0 0;
+    color: #5565e8;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border: 1px solid #1E2D3D;
     border-radius: 12px;
-    width: 30%;
-    background: #1e2d3d;
+    background: #010C15;
 }
 
-.pr-title img {
-    display: block;
-    width: 100%;
+.project img {
+    width: 350px;
+    border: 1px solid #1E2D3D;
 }
 
-.projects-list {
-    padding: 10em;
+.project p {
+    padding: 1em;
+}
+
+.project a {
+    text-decoration: none;
+    margin: 1em 0;
+    padding: .5em .7em;
+    background: #1E2D3D;
+    border: 1px;
+    border-radius: .7em;
+}
+
+.project a:hover {
+    background-color: #1e2d3d;
+}
+
+.project span {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #5565e8;
+
+}
+
+.projects {
+    display: flex;
+    gap: 5em;
+    padding: 5em;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* Contact me sections */
+
+.container-contactme {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
 }

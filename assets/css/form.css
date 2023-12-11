@@ -1,0 +1,41 @@
+.form-right {
+    padding: 1em;
+    font: 1em/1;
+    color: #ffffff;
+}
+
+.form-right input[type="submit"] {
+    background-color: #010C15;
+    color: white;
+}
+
+.form-right input {
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+
+.form-right input:hover {
+    background: #607b9675;
+}
+
+legend {
+    padding: 0 .5em;
+    font: 1.5em;
+}
+
+.form {
+    margin: 0 auto;
+    width: 33%;
+    background-color: rgba(70, 70, 70, 0.443);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.form-fieldset {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+    margin: 0 auto;
+    border-radius: .3em;
+}
