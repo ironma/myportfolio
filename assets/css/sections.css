@@ -1,8 +1,9 @@
 body {
     background-color: #010C15;
     margin: 30px;
-
+    height: 100%;
 }
+
 
 .introduction,
 .container-content,
@@ -43,14 +44,6 @@ body {
     color: #e99287;
 }
 
-.site-main {
-    border-radius: 8px;
-    border: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 .study-img {
     width: 100%;
 }
@@ -65,14 +58,21 @@ body {
     border-right: 1px solid #1E2D3D;
 }
 
+.container-projects h2,
+p {
 
-.container-projects header {
     text-align: center;
 }
 
-header h2 {
+.container-projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-projects h2 {
     padding: 2em 0 0;
     color: #5565e8;
+    text-align: center;
 }
 
 .project {
@@ -120,6 +120,11 @@ header h2 {
     padding: 5em;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.menu-projects {
+    background: #43D9AD;
+    height: 100%;
 }
 
 

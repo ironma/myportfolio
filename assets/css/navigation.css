@@ -17,6 +17,9 @@ display: block;
 
 a:hover, svg:hover {
     color: #fff;
-    fill: #fff;
     background-color: #1e2d3d;
+  }
+
+  a:active {
+    border-bottom: 2px solid #fea55f;
   }
